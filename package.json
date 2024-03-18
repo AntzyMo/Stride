@@ -10,16 +10,16 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/ui": "^2.14.2",
     "nuxt": "^3.10.3",
     "uuid": "^9.0.1",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
-    "@antzy/eslint-config": "^3.2.4",
+    "@antzy/eslint-config": "^3.2.6",
     "@iconify-json/mingcute": "^1.1.16",
-    "@unocss/nuxt": "^0.58.6",
     "eslint": "^8.57.0",
-    "unocss": "^0.58.6"
+    "tailwindcss": "^3.4.1"
   }
 }
