@@ -7,5 +7,9 @@ export default defineNuxtConfig({
       path: '~/components',
       pathPrefix: false
     }
-  ]
+  ],
+  plugins: ['~/plugins/vCalendar'],
+  ui: {
+    icons: ['mingcute']
+  }
 })

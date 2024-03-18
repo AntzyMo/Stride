@@ -4,4 +4,5 @@
 
 <template>
   <div>index</div>
+  <Calendar/>
 </template>

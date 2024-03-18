@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  :root {
+    --sider-background:  hsl(60deg 11.11% 98.24%);
+    
+    --button-text-color:hsl(45deg 19.05% 8.24% / 60%);
+    --button-hover-background: hsl(0deg 0% 0% / 5%);
+    --button-selected-background: hsl(0deg 0% 0% / 7%);
+
+  }
+}
+
+@layer components{
+  .hoverButton{
+    @apply hover:!bg-buttonHoverBackground 
+  }
+
+  .icon{
+    @apply text-primary text-[15px]
+  }
+}
