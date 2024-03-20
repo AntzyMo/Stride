@@ -15,7 +15,7 @@
           </div>
         </template>
         <template #right>
-          <IconButton class="-translate-y-[50%] absolute right-0 text-[18px] top-[50%]" name="i-mingcute-layout-rightbar-open-line"/>
+          <IconButton class="-translate-y-[50%] absolute right-0 top-[50%]" icon="i-mingcute-layout-rightbar-open-line"/>
         </template>
       </SiderButton>
 
