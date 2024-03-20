@@ -5,9 +5,11 @@
 
 @layer base {
   :root {
-    --sider-background:  hsl(60deg 11.11% 98.24%);
+    --sider-background:  hsl(0 0% 97.25%);
     
-    --button-text-color:hsl(45deg 19.05% 8.24% / 60%);
+    --button-text-color:hsl(45deg 7.84% 20% / 70%);
+    --button-text-color-50: hsl(45deg 7.84% 20% / 50%);
+    
     --button-hover-background: hsl(0deg 0% 0% / 5%);
     --button-selected-background: hsl(0deg 0% 0% / 7%);
 

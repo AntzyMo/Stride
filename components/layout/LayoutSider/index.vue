@@ -10,7 +10,7 @@
     <div class="relative">
       <SiderButton title="My'Stride" class="mb-1  pr-1">
         <template #icon>
-          <div className="bg-buttonSelectedBackground text-[12px] text-buttonTextColor w-5 h-5 text-center leading-5 font-medium rounded-[5px]  mr-[2px]">
+          <div className="bg-buttonSelectedBackground text-[12px] text-buttonTextColor w-5 h-5 text-center leading-5  font-medium rounded-[5px]  mr-[2px]">
             S
           </div>
         </template>

@@ -9,12 +9,13 @@
   <UButton
     variant="ghost"
     block
-    class="!text-buttonTextColor font-medium hoverButton justify-start tracking-wide"
+    class="!text-buttonTextColor font-medium hoverButton justify-start select-none tracking-wide"
     :label="title"
   >
     <template #leading>
-      <slot v-if="$slots.icon" name="icon"/>
-      <div v-else class="mr-[2px] text-[18px]" :class="icon"/>
+      <slot name="icon">
+        <div class="mr-[2px] text-[18px]" :class="icon"/>
+      </slot>
     </template>
 
     <template #trailing>
